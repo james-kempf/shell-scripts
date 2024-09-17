@@ -1,1 +1,0 @@
-hotspotshield connect US

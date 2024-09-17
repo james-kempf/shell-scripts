@@ -1,0 +1,10 @@
+hotspotshield connect US
+hotspotshield status
+status="starting"
+while [ "$status" != "connected" ]; do
+    status=$(hotspotshield status | grep "VPN connection state" | awk -F ': ' '{print $2}')
+    sleep 1
+done
+echo
+hotspotshield status
+
