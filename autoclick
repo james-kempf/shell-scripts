@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Main loop
+while true; do
+    # Check if the key is held down
+    xdotool key c # Simulate a left mouse button click
+    sleep 0.1      # Wait for 0.5 seconds
+done
