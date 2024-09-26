@@ -1,2 +1,9 @@
-sudo apt update && sudo apt upgrade -y
+sudo echo ***Updating Packages***
+sudo apt update
+
+echo ***Upgrading Packages***
+sudo apt upgrade -y
+
+echo ***Removing Packages***
+sudo apt autoremove
 
