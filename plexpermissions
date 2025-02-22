@@ -1,2 +1,3 @@
 sudo chown -R plex:plex /var/lib/plexmediaserver/Media
+sudo chown -R plex:plex /media/jameskempf/Drive/Media
 

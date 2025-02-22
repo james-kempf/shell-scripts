@@ -1,9 +1,15 @@
-sudo echo ***Updating Packages***
+sudo echo ---------------------------
+echo ---- Updating Packages ----
+echo ---------------------------
 sudo apt update
 
-echo ***Upgrading Packages***
+sudo echo ---------------------------
+echo ---- Upgrading Packages ---
+echo ---------------------------
 sudo apt upgrade -y
 
-echo ***Removing Packages***
+echo ---------------------------
+echo ---- Removing Packages ----
+echo ---------------------------
 sudo apt autoremove
 
